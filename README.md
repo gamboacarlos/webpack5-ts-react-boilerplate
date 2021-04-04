@@ -10,7 +10,7 @@ _Clone the repository to your machine_
 git clone https://github.com/gamboacarlos/webpack5-js-react-boilerplate.git
 ```
 
-### Instalación 🔧
+### Instalation 🔧
 
 _Just need Node.js v14 or higher and Yarn package manager_
 _Go to the repository folder and install using:_
