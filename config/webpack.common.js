@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 const path = require("path")
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "../dist"),
     filename: "[name].[contenthash].js",
@@ -15,7 +15,7 @@ module.exports = {
     rules:[
       {
         use: "babel-loader",
-        test: /.(js|jsx)$/,
+        test: /.(ts|tsx|js|jsx)$/,
         exclude: /node_modules/
       },
       {
@@ -29,7 +29,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".js", ".jsx", ".json"]
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"]
   },
   plugins:[
     new CleanWebpackPlugin(),
