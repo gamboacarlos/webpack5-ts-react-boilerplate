@@ -1,5 +1,5 @@
 {
-  "name": "new-webpack5",
+  "name": "webpack5-js-react-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -33,6 +33,7 @@
     "jest": "^26.6.3",
     "jest-css-modules": "^2.1.0",
     "mini-css-extract-plugin": "^1.4.0",
+    "prettier": "^2.2.1",
     "react-refresh": "^0.10.0",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",

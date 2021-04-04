@@ -5,11 +5,9 @@ import styles from "./globalStyles/App.module.scss"
 const App = () => {
   return (
     <div className={styles.container}>
-      {
-        products.map((prods) => (
-          <Card key={prods.id} {...prods}/>
-        ))
-      }
+      {products.map((prods) => (
+        <Card key={prods.id} {...prods} />
+      ))}
     </div>
   )
 }
