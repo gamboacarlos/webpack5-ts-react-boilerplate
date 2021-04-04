@@ -1,11 +1,15 @@
-import zapato from "./../public/images/zapato.jpg"
+import { products } from "./../utils/data"
+import Card from "./components/Card/Card"
 import styles from "./globalStyles/App.module.scss"
 
 const App = () => {
   return (
     <div className={styles.container}>
-      <h1>Ready!!!!</h1>
-      <img src={zapato} alt="foto"/>   
+      {
+        products.map((prods) => (
+          <Card key={prods.id} {...prods}/>
+        ))
+      }
     </div>
   )
 }

@@ -1,4 +1,7 @@
 .container{
+    margin: 0 auto;
     width: 80%;
-    background-color: cadetblue;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

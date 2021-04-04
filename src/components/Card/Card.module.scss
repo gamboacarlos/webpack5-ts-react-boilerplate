@@ -1,0 +1,22 @@
+.cardWrapper {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+  transition: ease-in;
+  
+    :hover{
+      background-color: yellow;
+    }
+  
+    img{
+      width: 100%;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
