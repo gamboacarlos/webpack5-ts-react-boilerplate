@@ -7,7 +7,7 @@ _Webpack 5 configuration for React with Typescript support, CSS modules, testing
 _Clone the repository to your machine_
 
 ```
-git clone 
+git clone https://github.com/gamboacarlos/webpack5-ts-react-boilerplate.git
 ```
 
 ### Instalation 🔧
