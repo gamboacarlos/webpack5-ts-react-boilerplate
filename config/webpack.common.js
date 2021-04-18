@@ -23,8 +23,10 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: "asset/resource",
+        test: /\.(ttf|otf|eot|woff|woff2)$/,
+        use: {
+          loader: "url-loader",
+        },
       },
     ]
   },
