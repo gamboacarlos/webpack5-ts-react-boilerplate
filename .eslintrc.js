@@ -7,7 +7,8 @@ module.exports = {
   },
   extends: [
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -36,7 +37,6 @@ module.exports = {
     "no-use-before-define": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-var-requires": "off",
-    indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "never"]
