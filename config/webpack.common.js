@@ -12,7 +12,7 @@ module.exports = {
   },
   mode: "production",
   module: {
-    rules:[
+    rules: [
       {
         use: "babel-loader",
         test: /.(ts|tsx|js|jsx)$/,
@@ -25,15 +25,15 @@ module.exports = {
       {
         test: /\.(ttf|otf|eot|woff|woff2)$/,
         use: {
-          loader: "url-loader",
-        },
-      },
+          loader: "url-loader"
+        }
+      }
     ]
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json"]
   },
-  plugins:[
+  plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
