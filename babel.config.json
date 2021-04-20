@@ -20,6 +20,16 @@
   ],
   "plugins": [
     [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@components": "./src/components",
+          "@constants": "./src/constants"
+        }
+      }
+    ],
+    [
       "@babel/plugin-transform-runtime",
       {
         "regenerator": true
