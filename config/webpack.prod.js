@@ -12,7 +12,7 @@ const prodConfig = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "../dist/styles/[name].css"
+      filename: "./dist/styles/[name].css"
     })
   ],
   module: {
