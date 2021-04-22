@@ -35,7 +35,6 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "no-use-before-define": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-var-requires": "off",
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],

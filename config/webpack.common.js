@@ -1,5 +1,6 @@
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin")
 const path = require("path")
 
 module.exports = {
@@ -34,6 +35,7 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json"]
   },
   plugins: [
+    new ForkTsCheckerWebpackPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
